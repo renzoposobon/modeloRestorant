@@ -93,6 +93,12 @@
     color: rgb(155, 123, 19);
 }
 
+.nuestraCarta {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .nuestraCarta h2 {
     font-size: 30px;
     font-family: "Gilda Display", sans-serif;
@@ -102,8 +108,47 @@
 }
 
 .nuestraCarta p {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Gilda Display", sans-serif;
     text-align: center;
     margin: 20px;
+}
+
+.cartas {
+    margin: 35px;
+}
+
+.cartas img {
+    width: 99%;
+    height: auto;
+    margin: .5%;
+}
+
+.cartas h3 {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: rgb(155, 123, 19);
+    text-align: center;
+}
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+}
+
+.pie img {
+    width: 160px;
+    height: 185px;
+}
+
+.pie p {
+    color: white;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: normal;
 }
