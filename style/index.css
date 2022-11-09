@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -32,6 +32,29 @@
     font-size: 12px;
     font-family: Roboto, sans-serif;
     margin: 15px;
+}
+
+.logoWhatsapp {
+    position: fixed;
+    top: 90%;
+    right: 8%;
+    width: 50px;
+    height: 50px;
+    background-color: #00d74c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+/* .logoWhatsapp ul li {
+    list-style-type: none;
+} */
+
+.whatsapp {
+    width: 25px;
+    height: 25px;
+    color: white;
 }
 
 .inicio {
@@ -164,6 +187,7 @@
     left: 75%;
     top: 8%;
     position: fixed;
+    margin-top: 10px;
 }
 
 h2 {
@@ -171,7 +195,7 @@ h2 {
     color: rgb(155, 123, 19);
     font-family: Roboto, sans-serif;
     text-align: center;
-    margin-bottom: 70px;
+    margin: 70px 0;
 }
 
 #central-vinos div {
