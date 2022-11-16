@@ -33,6 +33,7 @@ let arrVinos = [
 
 for (const i of arrVinos) {
     let divVino = document.createElement("div");
+    divVino.classList = ("vinos")
     divVino.innerHTML = `
     <img src="../src/vinos/${i.src}"></img>
     <h3 class="titulo-vinos">${i.nombre.toUpperCase().split("-").join(" ")}</h3>

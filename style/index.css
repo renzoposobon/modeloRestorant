@@ -316,6 +316,10 @@ h2 {
         color: white !important;
     }
     
+    .promociones {
+        cursor: pointer;
+    }
+
     .promociones img {
         width: 50%;
         height: 300px;
@@ -407,32 +411,38 @@ h2 {
         color: rgb(155, 123, 19);
         font-family: "Gilda Display", sans-serif;
         display: inline-block;
-        font-size: 1.4em;
-        padding: 12px;
+        font-size: 1.6em;
+        padding: 12px 22px;
         border: 2px rgb(155, 123, 19) solid;
-        left: 75%;
+        left: 84%;
         top: 8%;
         position: fixed;
         margin-top: 10px;
+        width: 140px;
+        text-align: center;
+    }
+
+    .boton-volver:hover {
+        background-color: rgb(155, 123, 19);
+        color: white;
+        cursor: pointer;
     }
     
+    .vinos {
+        margin: 2.7em;
+        width: 350px;
+    }
+
     h2 {
-        font-size: 30px;
+        font-size: 36px;
         color: rgb(155, 123, 19);
         font-family: Roboto, sans-serif;
         text-align: center;
         margin: 70px 0;
     }
     
-    #central-vinos div {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    
     .titulo-vinos {
-        font-size: 16px;
+        font-size: 19.2px;
         color: rgb(155, 123, 19);
         font-family: Roboto, sans-serif;
         text-align: center;
@@ -440,9 +450,11 @@ h2 {
     }
     
     .precio-vinos {
-        font-size: 16px;
+        font-size: 19px;
         color: black;
         font-family: "Gilda Display", sans-serif;
         text-align: center;
     }
+
+
 }
